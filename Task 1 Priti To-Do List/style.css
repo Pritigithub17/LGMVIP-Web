@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: rgb(251, 228, 232);
+    
+  }
+  
+  h1 {
+    text-align: center;
+    color:black;
+    font-family:'Marck Script', cursive;
+  }
+  
+  #inputBox {
+    padding: 8px;
+    border-radius: 8px;
+    border: 3px solid #130202;
+    width: 60%;
+    margin-right: 10px;
+    font-family:'Marck Script', cursive;
+    font-size: larger;
+  }
+  
+  #addButton {
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #52a555;
+    color: #fff;
+    cursor: pointer;
+    font-family:'Marck Script', cursive;
+    font-size: larger;
+    border: 3px solid #130202;
+    box-shadow: 0 6px #999;
+    
+  }
+  #addButton:hover{
+    background-color: green;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    font-family:'Marck Script', cursive;
+    font-size: larger;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #1e0303;
+    display: flex;
+    align-items: center;
+  
+    
+  }
+  
+  li label {
+    margin: 0;
+    flex: 1;
+    font-size: larger;
+    
+  }
+  img{
+    height:120px;
+    width: 120px;
+  
+  }
+  
+  li button {
+    padding: 8px;
+    border-radius: 8px;
+    border: 3px solid #130202;
+    background-color: #f2655b;
+    color: #fff;
+    margin-left: 10px;
+    cursor: pointer;
+    font-family:'Marck Script', cursive;
+    font-size: medium;
+  }
+  li button:hover{
+    background-color:red;
+  }
+
+  div{
+    margin:auto;
+    text-align: center;
+  }
+  
